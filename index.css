@@ -1,0 +1,173 @@
+body{
+    background-image: radial-gradient(circle, rgb(246, 246, 135) 0%, rgb(203, 247, 238) 99%)
+}
+.main-up{
+    background-color:rgb(11, 67, 82);
+    
+    color: white;
+
+}
+.links{
+    display:flex;
+    justify-content: space-between;
+}
+.file-image{
+    border-radius: 50%;
+}
+.nav-list > li{
+    margin: 20px;
+    font-size: 20px;
+}
+.nav-list{
+    display:flex;
+    list-style-type:none;
+    justify-content: space-between;
+}
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    
+    align-items: center;
+    margin: 20px;
+    font-size: 20px;
+    
+}
+.navlist > li{
+    font-size: 20px;
+    margin: 20px;
+}
+.main-content{
+    display:flex;
+    margin: 10;
+    justify-content: space-between;
+
+}
+.img-1{
+    border: 5cap white;
+    border-radius: 50%;
+}
+
+.main-left{
+    width: 50%;
+    padding-left: 40px;
+}
+.main-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+    align-items: center;
+}
+.skill-data{
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.skill{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /*background-image: radial-gradient(circle, rgb(246, 246, 135) 0%, rgb(203, 247, 238) 99%)*/
+    
+}
+.skill-class-con >div{
+    font-size: 20px;
+    height: 30px;
+    justify-content: center;
+    border: 1px solid orange;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+}
+.skill-class-con{
+    margin-left:15% ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(148, 146, 146);
+}
+.orange-theme{
+    color: rgb(249, 162, 1);
+}
+.series-btn{
+    text-align: center;
+    color: white;
+    background-color: rgb(249, 162, 1);
+    font-family: poppins;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+    border-radius: 10%;
+}
+.series-video{
+    display: flex;
+    justify-content: center;
+
+}
+.series-video div iframe{
+    border-radius: 10px;
+    width: 90%;
+    margin: 20px;
+}
+.series-video div{
+    padding-left: 10px;
+    text-align: justify;
+    width: 30%;
+    margin: 20px;
+    height: 100%;
+    background-color: white;
+}
+.series-video div img{
+    border-radius: 10px;
+    width: 90%;
+    margin: 20px;
+}
+.contact{
+    padding-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    background-color:rgb(11, 67, 82);
+    color: white;
+}
+.contact-data{
+    justify-content: center;
+    text-align: center;
+}
+.email{
+    padding: 15px;
+}
+.email a{
+    border: 1px solid orange;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.edu-crd{
+    display: flex;
+}
+.edu-crd l{
+    width: 70%;
+}
+.edu-crd R{
+    width: 30%;
+}
